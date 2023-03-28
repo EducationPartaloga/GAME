@@ -7,7 +7,7 @@ export default class Background {
 
         this.velocity = 1
 
-        this.dy = this.image.height - game.canvas.height
+        this.dy = this.image.height - this.game.canvas.height
          this.start = this.image.height - this.game.canvas.height
     }
 
